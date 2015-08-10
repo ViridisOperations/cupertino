@@ -8,6 +8,13 @@ pricePredict <- function(TotalSqft) {
   pre1
 }
 
+###################################################################################################
+# input is Totalsqft which Total Square foot of your house, smaple value can be 3000
+# output is Predicted value by the model , for example 1,500,000 USD
+# following function accepts TotalSqft as input and 
+# simply calls the pricePredict function to determine the predicted value.
+#
+
 
 shinyServer (
   
